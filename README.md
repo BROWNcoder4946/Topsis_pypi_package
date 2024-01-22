@@ -21,27 +21,32 @@ Run the TOPSIS script from the command line with the following arguments:
 python3 -m Topsis_Aditya_102103546.Topsis
  <input_file> <input_weights> <input_impacts> <output_file>
 ```
+### Running the Script in Editor
+
+Run the TOPSIS script from IDE in the following format:
+
+```
+from Topsis_Aditya_102103546.Topsis import __main__
+
+__main__.TOPSIS(input_file,weights,impacts,output_file)
+```
 
 - `<input_file>`: Path to the CSV file containing the input data.
 - `<input_weights>`: Weights for each criterion separated by commas.
 - `<input_impacts>`: Impacts for each criterion, either '+' or '-'.
 - `<output_file>`: Path to the CSV file where the result will be saved.
 
-Example:
-
-```bash
-python3 -m Topsis_Aditya_102103546.Topsis /path/to/input/data.csv "1,2,3,4,5" "+,-,+,+,+" /path/to/output/result.csv
-```
-
 ### Input Format
 
-The input file should be a CSV file with the first column representing the alternatives and the following columns representing different criteria.
+The input file should be a CSV file with the first column representing the alternatives and the following columns representing different criteria. Atleast 3 columns shall be present.
 
 ### Output
 
 The script generates a CSV file with the TOPSIS scores and ranks for each alternative.
 
 ## License
+
+(c) 2024 Aditya Vashishta
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
