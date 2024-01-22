@@ -18,7 +18,8 @@ This Python script implements the TOPSIS (Technique for Order Preference by Simi
 Run the TOPSIS script from the command line with the following arguments:
 
 ```bash
-python3 Topsis <input_file> <input_weights> <input_impacts> <output_file>
+python3 -m Topsis_Aditya_102103546.Topsis
+ <input_file> <input_weights> <input_impacts> <output_file>
 ```
 
 - `<input_file>`: Path to the CSV file containing the input data.

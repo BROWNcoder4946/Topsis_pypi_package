@@ -113,5 +113,5 @@ def TOPSIS(input_file , input_weights , input_impacts , output_file) :
 
     print(final_df)
     
-if __name__ =='__main__':
+if __name__ == '__main__':
     TOPSIS()
