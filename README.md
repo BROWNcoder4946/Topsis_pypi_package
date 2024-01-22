@@ -32,8 +32,8 @@ __main__.TOPSIS(input_file,weights,impacts,output_file)
 ```
 
 - `<input_file>`: Path to the CSV file containing the input data.
-- `<input_weights>`: Weights for each criterion separated by commas.
-- `<input_impacts>`: Impacts for each criterion, either '+' or '-'.
+- `<weights>`: Weights for each criterion separated by commas.
+- `<impacts>`: Impacts for each criterion, either '+' or '-'.
 - `<output_file>`: Path to the CSV file where the result will be saved.
 
 ### Input Format
@@ -48,5 +48,5 @@ The script generates a CSV file with the TOPSIS scores and ranks for each altern
 
 (c) 2024 Aditya Vashishta
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 ```
