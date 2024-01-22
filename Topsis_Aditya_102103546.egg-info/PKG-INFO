@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: Topsis_Aditya_102103546
-Version: 1.0.3
+Version: 1.0.5
 Summary: This Python script implements the TOPSIS (Technique for Order Preference by Similarity to Ideal Solution) algorithm.
 Home-page: https://github.com/BROWNcoder4946/Topsis_pypi_package
 Author: Aditya Vashishta
@@ -39,7 +39,8 @@ This Python script implements the TOPSIS (Technique for Order Preference by Simi
 Run the TOPSIS script from the command line with the following arguments:
 
 ```bash
-python3 Topsis <input_file> <input_weights> <input_impacts> <output_file>
+python3 -m Topsis_Aditya_102103546.Topsis
+ <input_file> <input_weights> <input_impacts> <output_file>
 ```
 
 - `<input_file>`: Path to the CSV file containing the input data.
@@ -50,7 +51,7 @@ python3 Topsis <input_file> <input_weights> <input_impacts> <output_file>
 Example:
 
 ```bash
-python3 Topsis /path/to/input/data.csv "1,2,3,4,5" "+,-,+,+,+" /path/to/output/result.csv
+python3 -m Topsis_Aditya_102103546.Topsis /path/to/input/data.csv "1,2,3,4,5" "+,-,+,+,+" /path/to/output/result.csv
 ```
 
 ### Input Format

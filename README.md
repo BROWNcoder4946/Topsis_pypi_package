@@ -30,7 +30,7 @@ python3 -m Topsis_Aditya_102103546.Topsis
 Example:
 
 ```bash
-python3 Topsis /path/to/input/data.csv "1,2,3,4,5" "+,-,+,+,+" /path/to/output/result.csv
+python3 -m Topsis_Aditya_102103546.Topsis /path/to/input/data.csv "1,2,3,4,5" "+,-,+,+,+" /path/to/output/result.csv
 ```
 
 ### Input Format
