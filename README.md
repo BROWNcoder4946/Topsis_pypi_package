@@ -13,20 +13,12 @@ This Python script implements the TOPSIS (Technique for Order Preference by Simi
 ### Installation
 ```pip install Topsis_Aditya_102103546```
 
-### Running the Script
-
-Run the TOPSIS script from the command line with the following arguments:
-
-```bash
-python3 -m Topsis_Aditya_102103546.Topsis
- <input_file> <input_weights> <input_impacts> <output_file>
-```
 ### Running the Script in Editor
 
-Run the TOPSIS script from IDE in the following format:
+Run the TOPSIS script in IDE using the following format:
 
 ```
-from Topsis_Aditya_102103546.Topsis import __main__
+from Topsis import __main__
 
 __main__.TOPSIS(input_file,weights,impacts,output_file)
 ```
